@@ -22,7 +22,7 @@ import TbTencentMap from './tencent-map';
 
 import {processPattern, arraysEqual, toLabelValueMap, fillPattern, fillPatternWithActions} from './widget-utils';
 
-export default class TbMapWidgetV2 {
+export default class TbMapWidgetV3 {
 
 	constructor(mapProvider, drawRoutes, ctx, useDynamicLocations, $element) {
 		var tbMap = this;
