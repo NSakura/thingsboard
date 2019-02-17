@@ -15,10 +15,7 @@
  */
 import tinycolor from 'tinycolor2';
 
-import TbGoogleMap from './google-map';
 import TbOpenStreetMap from './openstreet-map';
-import TbImageMap from './image-map';
-import TbTencentMap from './tencent-map';
 
 import {processPattern, arraysEqual, toLabelValueMap, fillPattern, fillPatternWithActions} from './widget-utils';
 
